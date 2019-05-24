@@ -2,9 +2,14 @@
 
 A Particle project named ses4_ln3_alarmanlage_component_test
 
-## Welcome to your project!
+## Modification
+Modify the pins accordingly to your setup. You find the configuration in the header.
+For example:
+```c
+#define ALARM_LED_RED D4
+```
 
-Every new Particle project is composed of 3 important elements that you'll see have been created in your project directory for ses4_ln3_alarmanlage_component_test.
+If our red LED is connected to port **D6** instead of **D4** change it to **D6**
 
 #### ```/src``` folder:  
 This is the source folder that contains the firmware files for your project. It should *not* be renamed. 
